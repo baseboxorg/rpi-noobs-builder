@@ -5,6 +5,7 @@ compiler: gcc
 script:
 - bash ./build-kiosk.sh
 
+
 deploy:
   provider: releases
   api_key:
